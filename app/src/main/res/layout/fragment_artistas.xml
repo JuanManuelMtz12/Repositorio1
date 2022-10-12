@@ -1,0 +1,184 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DatosArtistas"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text= "Tipo de Servicio">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="UNETE"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="40dp" />
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:text="Tipo de servicio"
+            android:textSize="20dp"
+            />
+
+
+        <Spinner
+            android:id="@+id/idTipoServicio"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:text="Logo Tipo"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/idLogo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/idlogo"/>
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:text="Dirección"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/idDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/idcalle"/>
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:text="Municipio"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/idMunicipio"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/idgps"/>
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:text="Estado"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/idEstado"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/idgps"/>
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:text="Genero Musical"
+            android:textSize="20dp"
+            />
+
+        <Spinner
+            android:id="@+id/idGeneroMusic"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:text="Correo electronico"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/idCorreoGrup"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:inputType="textEmailAddress"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/idcorreo"/>
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:text="Telefono"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/idTelefono2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:inputType="phone"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/idtelefono"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:id="@+id/idPerfilArtista"
+            android:text="Registrar"
+            app:cornerRadius="20dp"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

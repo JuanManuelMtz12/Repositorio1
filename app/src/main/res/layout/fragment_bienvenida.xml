@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Bienvenida">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:text="Servicios ofredicos">
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="Servicios"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+
+            android:textSize="40dp" />
+
+        <Button
+            android:id="@+id/idGruposMusicales"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="Grupos Musicales"
+            app:cornerRadius="20dp"
+            />
+
+        <Button
+            android:id="@+id/idSonido"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"
+            android:text="Sonidos"
+            app:cornerRadius="20dp"
+            />
+
+        <Button
+            android:id="@+id/idSolistas"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"
+            android:text="Solistas"
+            app:cornerRadius="20dp"
+            />
+
+        <Button
+            android:id="@+id/idServicios"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:text="Registrar servicios"
+            app:cornerRadius="20dp"
+            />
+
+
+
+    </LinearLayout>
+
+</FrameLayout>
+
+
+
+

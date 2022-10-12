@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Paquetes"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text= "Servicios"
+        >
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="Paquetes"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="40dp" />
+
+        <Spinner
+            android:id="@+id/idTipoPaquete"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:text="Descripcion"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/idDescripcion"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:text="Precio"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/idPrecio"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="60dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/iddolar"/>
+
+
+        <Button
+            android:layout_marginTop="80dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginHorizontal="80dp"
+            android:id="@+id/idService"
+            android:text="Registrar"
+            app:cornerRadius="20dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>
